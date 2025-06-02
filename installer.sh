@@ -13,8 +13,11 @@ fi
 
 if sudo mv mpa /usr/local/bin/mpa; then
   echo "mpa has been sucessfully installed!"
+  touch "You_can_delete_this_directory_now.thanks"
   exit 0
 else
   echo "Something went wrong."
 fi
+
+
 
