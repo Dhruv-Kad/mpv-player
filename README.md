@@ -1,4 +1,4 @@
-#A very basic C++ mpv wrapper
+# A very basic C++ mpv wrapper
   
   It simply returns all the valid files in the directory and prompts
   the user to select a valid one.
