@@ -45,7 +45,7 @@ void sanitized_select() {
   number--;
   if (number >= 0 && number < avalfiles.size()) {
     line = avalfiles[number];
-    extension = "mpv \'" + line + "\'";
+    extension = "mpv \'" + line + "\' &";
     std::system(extension.c_str());
   }
   system("rm validFilesList.txt");
